@@ -14,6 +14,10 @@ BOT_NAME = 'longman'
 SPIDER_MODULES = ['longman.spiders']
 NEWSPIDER_MODULE = 'longman.spiders'
 
+# DOWNLOADER_MIDDLEWARES = {
+#     'longman.WebkitMiddleware.WebkitMiddleware': 543
+# #     'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware': None
+# }
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'longman (+http://www.yourdomain.com)'
