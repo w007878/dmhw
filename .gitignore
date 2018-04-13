@@ -3,3 +3,4 @@ hw2-dictionary/profile.py
 hw3-steam/tmp*
 
 *.pyc
+.*
