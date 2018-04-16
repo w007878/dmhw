@@ -2,6 +2,14 @@
 
 This course is named as 'Data Mining', given by Prof. Zheng Wei-shi. This is a half-term course without final exam. The task of it is to build three big projects. This repo is used to handle all of them.
 
+## Homework 1 -- SDH
+
+An implement to the algorithm ``Supervised Discrete Hashinh``, according to [this paper, CPVR2015](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Shen_Supervised_Discrete_Hashing_2015_CVPR_paper.pdf)
+
+Wrote in ``MATLAB``
+
+nothing original, nothing special
+
 ## Homework 2 -- Dictionary
 
 #### Background 
@@ -18,13 +26,20 @@ I choose the online edition of ``Longman Dictionary of Contemporary English, 6th
 
 The offical homepage of the dictionary is [HERE](http://global.longmandictionaries.com). Please pay for it if you really need it.
 
-#### Getting start
-（To be continued）
+#### Detail
 
-## Homework 3 -- Steam
+I found it is very difficult to get all the existing words in the dictionary. However, if some words is not referenced by any other words, the rank value of it should be very low, in that situation the result would have a obvious change if we ignore these words.
+
+We only concern about the words referenced by others frequently. To get start, I download 4000 IELTS academy words from [this website](https://www.examword.com/ielts-list/4000-academic-word-1?la=en), and then apply a BFS algorithm to it.
+
+I use ``scrapy`` and ``R`` to get and clean the data. PageRank is used to measure the importantance of them.
+
+I save the result in ``hw2-dictionary/result``, you can get it if you are interested in. 
+
+## Homework 3 -- Music
 
 #### Background
 
-I am asked to implement a cluster algorithm to slove any problem I want. My choice is to divide users of [Steam](store.steampowered.com) into differnent groups by the games they play. 
+I am asked to implement a cluster algorithm to slove any problem I want. My first idea is to divide users of [Steam](store.steampowered.com) into differnent groups by the games they play. 
 
 （To be continued）
