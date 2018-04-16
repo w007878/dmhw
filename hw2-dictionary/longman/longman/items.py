@@ -11,8 +11,10 @@ import scrapy
 class LongmanItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
-
+    word = scrapy.Field()
+    POS = scrapy.Field()
+    meaning = scrapy.Field()
+    
 class Word(scrapy.Item):
     word = scrapy.Field()
     POS = scrapy.Field()
