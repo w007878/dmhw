@@ -4,7 +4,7 @@ This course is named as 'Data Mining', given by Prof. Zheng Wei-shi. This is a h
 
 ## Homework 1 -- SDH
 
-An implement to the algorithm ``Supervised Discrete Hashinh``, according to [this paper, CPVR2015](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Shen_Supervised_Discrete_Hashing_2015_CVPR_paper.pdf)
+An implement to the algorithm ``Supervised Discrete Hashing``, according to [this paper, CPVR2015](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Shen_Supervised_Discrete_Hashing_2015_CVPR_paper.pdf)
 
 Wrote in ``MATLAB``
 

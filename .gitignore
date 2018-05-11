@@ -9,3 +9,5 @@ hw3-steam/tmp*
 
 *.pyc
 .*
+*.mp3
+*.wav
